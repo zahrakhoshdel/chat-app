@@ -1,0 +1,109 @@
+{
+    "items": [
+        {
+            "name": "Test",
+            "dial_code": "+1",
+            "code": "TE"
+        },
+        {
+            "name": "Afghanistan",
+            "dial_code": "+93",
+            "code": "AF"
+        },
+        {
+            "name": "Angola",
+            "dial_code": "+244",
+            "code": "AO"
+        },
+        {
+            "name": "Brazil",
+            "dial_code": "+55",
+            "code": "BR"
+        },
+        {
+            "name": "Burkina Faso",
+            "dial_code": "+226",
+            "code": "BF"
+        },
+        {
+            "name": "Canada",
+            "dial_code": "+1",
+            "code": "CA"
+        },
+        {
+            "name": "Egypt",
+            "dial_code": "+20",
+            "code": "EG"
+        },
+        {
+            "name": "Fiji",
+            "dial_code": "+679",
+            "code": "FJ"
+        },
+        {
+            "name": "France",
+            "dial_code": "+33",
+            "code": "FR"
+        },
+        {
+            "name": "Germany",
+            "dial_code": "+49",
+            "code": "DE"
+        },
+        {
+            "name": "India",
+            "dial_code": "+91",
+            "code": "IN"
+        },
+        {
+            "name": "Iran, Islamic Republic of Persian Gulf",
+            "dial_code": "+98",
+            "code": "IR"
+        },
+        {
+            "name": "Israel",
+            "dial_code": "+972",
+            "code": "IL"
+        },
+        {
+            "name": "Japan",
+            "dial_code": "+81",
+            "code": "JP"
+        },
+        {
+            "name": "Korea, Republic of South Korea",
+            "dial_code": "+82",
+            "code": "KR"
+        },
+        {
+            "name": "Malaysia",
+            "dial_code": "+60",
+            "code": "MY"
+        },
+        {
+            "name": "Pakistan",
+            "dial_code": "+92",
+            "code": "PK"
+        },
+        {
+            "name": "Russia",
+            "dial_code": "+7",
+            "code": "RU"
+        },
+        {
+            "name": "Sweden",
+            "dial_code": "+46",
+            "code": "SE"
+        },
+        {
+            "name": "Turkey",
+            "dial_code": "+90",
+            "code": "TR"
+        },
+        {
+            "name": "Zimbabwe",
+            "dial_code": "+263",
+            "code": "ZW"
+        }
+    ]
+}

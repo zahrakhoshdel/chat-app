@@ -7,19 +7,19 @@ Developed a chat application using Flutter and Firebase, where users can registe
 
 ## :iphone: Screenshots
 
-| ![chat_app](https://user-images.githubusercontent.com/91828519/163857405-04288f8c-910e-4d98-a4ee-a9b527fc4016.png) |
-|||
+![chat_app](https://user-images.githubusercontent.com/91828519/163857405-04288f8c-910e-4d98-a4ee-a9b527fc4016.png)
+
 
 ## Features
 
-:heavy_check_mark: register via a OTP verification - logout .
-:heavy_check_mark: Real-time send and receive messages using stream and linking with Firebaes Firestore database.
-:heavy_check_mark: Showing list of messages and users
-:heavy_check_mark: create individual and group chats
-:heavy_check_mark: Any user can create groups
-:heavy_check_mark: search by name of users for add member to create group
-:heavy_check_mark: chat with any user
-:heavy_check_mark: Nice looking UI 
+* :heavy_check_mark: register via a OTP verification - logout
+* :heavy_check_mark: Real-time send and receive messages using stream and linking with Firebaes Firestore database.
+* :heavy_check_mark: Showing list of messages and users
+* :heavy_check_mark: create individual and group chats
+* :heavy_check_mark: Any user can create groups
+* :heavy_check_mark: search by name of users for add member to create group
+* :heavy_check_mark: chat with any user
+* :heavy_check_mark: Nice looking UI 
 
 
 ## Getting Started
@@ -54,13 +54,13 @@ In the command terminal, run the following commands:
 
 ## TODO
 
-:white_medium_square: Support Sign in - SignUp with Google and Facebook Account, Email & Password
-:white_medium_square: Sending messages with sticker or photo with Firebase Storage
-:white_medium_square: update avatar and profile.
-:white_medium_square: Push Notificatiion for messages.
-:white_medium_square: Exchange texts with emojis
-:white_medium_square: Light Mode + Dark Mode 
-:white_medium_square: delete chats and groups
+- :white_medium_square: Support Sign in - SignUp with Google and Facebook Account, Email & Password
+- :white_medium_square: Sending messages with sticker or photo with Firebase Storage
+- :white_medium_square: update avatar and profile
+- :white_medium_square: Push Notificatiion for messages
+- :white_medium_square: Exchange texts with emojis
+- :white_medium_square: Light Mode + Dark Mode 
+- :white_medium_square: delete chats and groups
 
 
 ## Show Your Support

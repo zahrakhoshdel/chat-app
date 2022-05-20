@@ -7,6 +7,7 @@ import 'package:chat_app/widgets/user_card.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class UserChatsScreen extends StatefulWidget {
   @override
@@ -149,9 +150,11 @@ class _UserChatsScreenState extends State<UserChatsScreen> {
                         : SliverList(
                             delegate: SliverChildListDelegate(
                                 messages.values.toList().map((data) {
+                            Timestamp time = data['time'];
+                            DateTime msgTime = time.toDate();
                             return UserCard(
                                 fullname: '${data['friendName']}',
-                                sub: data['time'].toString(),
+                                sub: msgTime.toString(),
                                 //url: 'assets/images/imgProfile.png',
                                 onTapped: () {
                                   callChatDetailScreen(
@@ -168,5 +171,11 @@ class _UserChatsScreenState extends State<UserChatsScreen> {
             }),
       ),
     );
+  }
+
+  String formatTimestamp(int timestamp) {
+    var format = DateFormat('d MMM, hh:mm a');
+    var date = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
+    return format.format(date);
   }
 }

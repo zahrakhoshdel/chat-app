@@ -3,6 +3,7 @@
 import 'package:chat_app/constants.dart';
 import 'package:chat_app/screens/login/base_screen_auth.dart';
 import 'package:chat_app/screens/login/user_credential_screen.dart';
+import 'package:chat_app/screens/main_screen.dart';
 import 'package:chat_app/widgets/custom_button.dart';
 import 'package:chat_app/widgets/custom_progress_indicator.dart';
 import 'package:chat_app/widgets/custom_text_field.dart';
@@ -48,10 +49,18 @@ class _VerifyNumberScreenState extends State<VerifyNumberScreen> {
       });
 
       if (authCredential.user != null) {
-        Navigator.push(
+        if (authCredential.additionalUserInfo!.isNewUser) {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => const UserCredentialInputScreen()));
+        } else {
+          Navigator.pushAndRemoveUntil(
             context,
-            MaterialPageRoute(
-                builder: (context) => const UserCredentialInputScreen()));
+            MaterialPageRoute(builder: (_) => const MainScreen()),
+            (Route<dynamic> route) => false,
+          );
+        }
       }
     } on FirebaseAuthException {
       setState(() {

@@ -5,6 +5,15 @@
 Developed a chat application using Flutter and Firebase, where users can register and create groups and start conversing with each other.
 
 
+## Demo
+
+Demo Video
+
+
+https://user-images.githubusercontent.com/91828519/174354521-ddedd286-3dd9-45bd-94b6-631eb3bfc9a2.mp4
+
+
+
 ## :iphone: Screenshots
 
 ![chat_app](https://user-images.githubusercontent.com/91828519/163857405-04288f8c-910e-4d98-a4ee-a9b527fc4016.png)
